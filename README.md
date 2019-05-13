@@ -10,7 +10,7 @@ Create a program that evaluates a string of brackets. Said program will take the
 
 "Given n string of brackets, determine whether each sequence of brackets is balanced. If a string is balanced, print YES on a new line; otherwise, print NO on a new line." - HackerRank
 
-##User Guideline
+## User Guideline
 
 Clone into this repo or download the files to your machine. CodingChallengeOne has been provided as a compiled version of the program. To make changes and compile it further, 
 "g++ -o [filename.out] driver.cpp". Then use "./[filename.out]" to run it. 
