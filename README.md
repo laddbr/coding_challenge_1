@@ -12,7 +12,7 @@ Create a program that evaluates a string of brackets. Said program will take the
 
 ## User Guideline
 
-Clone into this repo or download the files to your machine. CodingChallengeOne has been provided as a compiled version of the program. To make changes and compile it further, 
+Clone into this repo or download the files to your machine directly from GitHub. All source files are located in the "src" folder. CodingChallengeOne has been provided as a compiled version of the program. To make changes and compile it further, 
 "g++ -o [filename.out] driver.cpp". Then use "./[filename.out]" to run it. 
 
 The program will prompt you to enter how many strings you would like evaluated. You can enter as many as 10^3, or 1000, different strings for evaluation. Then, line by line, you input each string of brackets, up to as many as you specified. Each string of brackets can have no more than 10^3, or 1000, characters. After all the lines have been submitted, the 
