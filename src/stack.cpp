@@ -16,18 +16,16 @@ StackType::StackType()
     top = -1;
 }
 
-char StackType::Pop()
-{
+void StackType::Pop()
+{   
     top--;
 }
-
 
 void StackType::Push(char item)
 {
     top++;
     items[top] = item;
 }
-
 
 char StackType::Top()
 {
@@ -43,4 +41,5 @@ bool StackType::isEmpty(){
     {
         return false;
     }
+    return false;
 }

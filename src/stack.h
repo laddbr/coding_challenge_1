@@ -15,7 +15,7 @@ class StackType
         StackType();
 
         //Pop operation
-        char Pop();
+        void Pop();
 
         //Push operation
         void Push(char item);
@@ -23,10 +23,10 @@ class StackType
         //Checks to see if the stack is empty
         bool isEmpty();
 
+        //Returns the top element of the stack
         char Top();
-        
-
-
+    
+    
     private:
         int top;
         char items[1000];
