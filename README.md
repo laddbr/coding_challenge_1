@@ -17,6 +17,11 @@ http://mingw.org/
 and that g++ works by running
 g++ -v
 in your terminal of choice.
+To compile the program after making changes, run:
+g++ -o [filename.out] driver.cpp
+and then
+[filename.out]
+to run it.
 
 Clone into this repo or download the files to your machine directly from GitHub. All source files are located in the "src" folder. CodingChallengeOne has been provided as a compiled version of the program. To run the program, open up your favorite terminal, cd into the folder where CodingChallengeOne is stored, and type "./CodingChallengeOne.out".
 
